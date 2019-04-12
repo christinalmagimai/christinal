@@ -80,4 +80,63 @@ Date:   Thu Apr 11 16:30:54 2019 +0530
     Adding a.txt
 
 CHRISTINALM@LP-LRD37GH MINGW64 ~/Desktop/Git 1 (master)
+$ ^C
+
+CHRISTINALM@LP-LRD37GH MINGW64 ~/Desktop/Git 1 (master)
+$ git add b.txt
+
+CHRISTINALM@LP-LRD37GH MINGW64 ~/Desktop/Git 1 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   b.txt
+
+
+CHRISTINALM@LP-LRD37GH MINGW64 ~/Desktop/Git 1 (master)
+$ git log
+commit 2a2fa4c8aa7ae37103c0ac5c4e14e471a25abd86 (HEAD -> master)
+Author: CHRISTINAL MAGIMAI S <CHRISTINALM@hcl.com>
+Date:   Thu Apr 11 16:30:54 2019 +0530
+
+    Adding a.txt
+
+CHRISTINALM@LP-LRD37GH MINGW64 ~/Desktop/Git 1 (master)
+$ git commit -m "Adding b.txt"
+[master eb93481] Adding b.txt
+ Committer: CHRISTINAL MAGIMAI S <CHRISTINALM@hcl.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 83 insertions(+)
+ create mode 100644 b.txt
+
+CHRISTINALM@LP-LRD37GH MINGW64 ~/Desktop/Git 1 (master)
+$ git log
+commit eb934816fe9057aecf7993bf854177ad8b83c2ce (HEAD -> master)
+Author: CHRISTINAL MAGIMAI S <CHRISTINALM@hcl.com>
+Date:   Thu Apr 11 16:33:28 2019 +0530
+
+    Adding b.txt
+
+commit 2a2fa4c8aa7ae37103c0ac5c4e14e471a25abd86
+Author: CHRISTINAL MAGIMAI S <CHRISTINALM@hcl.com>
+Date:   Thu Apr 11 16:30:54 2019 +0530
+
+    Adding a.txt
+
+CHRISTINALM@LP-LRD37GH MINGW64 ~/Desktop/Git 1 (master)
+$ ^C
+
+CHRISTINALM@LP-LRD37GH MINGW64 ~/Desktop/Git 1 (master)
 $
